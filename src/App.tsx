@@ -7,7 +7,7 @@ export function App() {
     <div>
       <Input errorMessage={'b'} label={'a'} type={'password'} variant={'search'} />
       <Button children={'ghbdtn'} />
-      <CheckboxDemo />
+      {/*<CheckboxDemo />*/}
     </div>
   )
 }
