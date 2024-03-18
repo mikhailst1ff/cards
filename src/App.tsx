@@ -1,13 +1,15 @@
-import { Button } from '@/components/ui/button'
-import { CheckboxDemo } from '@/components/ui/checkbox/Checkbox'
-import { Input } from '@/components/ui/input'
+import { Button } from './components/ui/Button'
 
 export function App() {
   return (
     <div>
-      <Input errorMessage={'b'} label={'a'} type={'password'} variant={'search'} />
-      <Button children={'ghbdtn'} />
-      {/*<CheckboxDemo />*/}
+      <Button variant={'primary'}>hello</Button>
+      <Button fullWidth variant={'secondary'}>
+        hello
+      </Button>
+      <Button as={'a'} href={'/'}>
+        hello
+      </Button>
     </div>
   )
 }
