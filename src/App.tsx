@@ -1,3 +1,5 @@
+import { TextField } from '@/components/ui/TextField/TextField'
+
 import { Button } from './components/ui/Button'
 
 export function App() {
@@ -10,6 +12,9 @@ export function App() {
       <Button as={'a'} href={'/'}>
         hello
       </Button>
+      <TextField label={'label'} search type={'password'}></TextField>
+      <TextField label={'label'} search type={'password'}></TextField>
+      <TextField errorMessage={'error'} label={'label'} search type={'password'}></TextField>
     </div>
   )
 }
