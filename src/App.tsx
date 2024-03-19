@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/Card/Card'
+import Checkbox from '@/components/ui/Checkbox/Checkbox'
 import { TextField } from '@/components/ui/TextField/TextField'
 
 import { Button } from './components/ui/Button'
@@ -17,6 +18,7 @@ export function App() {
       <TextField label={'label'} search type={'password'}></TextField>
       <TextField errorMessage={'error'} label={'label'} search type={'password'}></TextField>
       <Card />
+      <Checkbox></Checkbox>
     </div>
   )
 }
